@@ -1,0 +1,6 @@
+.borderStyle{
+    border: 1px;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: black;
+}

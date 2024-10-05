@@ -1,0 +1,22 @@
+.img-w{
+    max-width:100% ;
+}
+.h-70vh{
+    height: 70vh;
+}
+.listStyle{
+  list-style: none;
+}
+.listStyle li{
+  margin: 10px;
+}
+.verifyCard{
+  position: absolute;
+  top: 30%;
+
+}
+.InvalidCard{
+  position: absolute;
+  top: 40%;
+  right: 4.5%;
+}

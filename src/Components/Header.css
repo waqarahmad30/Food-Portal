@@ -1,0 +1,20 @@
+.headerStyle{
+height: 18vh !important;
+align-content: center !important;
+padding: 1rem !important;
+max-width: 100% !important;
+}
+.headerTab{
+    display: none !important;
+}
+@media screen and (max-width: 768px) {
+    .headerStyle{
+        display: none !important;
+    }
+    .headerTab{
+        display: flex !important;
+        height: 20vh !important;
+        align-content: center !important;
+        max-width: 100% !important;
+    }
+  }

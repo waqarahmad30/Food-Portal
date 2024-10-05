@@ -1,0 +1,23 @@
+.img-adj{
+    width: 300px;
+}
+.rw{
+    width: 80%;
+}
+
+@media screen and (max-width: 790px) {
+    .img-adj{
+        width: 250px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+
+    .h-50vh{
+        height: 90vh
+    }
+  }  
+  @media screen and (max-width: 400px) {
+    .img-adj{
+        width: 190px;
+    }
+  }
