@@ -1,6 +1,31 @@
 .borderStyle{
     border: 1px;
-    border-radius: 2rem;
     border-style: solid;
     border-color: black;
+}
+.listBorder{
+    border-color:black;
+border-width: 1px 1px 0px 1px; /* Top Right Bottom Left */
+border-style: solid;
+}
+.font-w600{
+    font-weight: 600;
+}
+.lsitStyle{
+    background: none !important;
+}
+.lsitStyle:hover{
+    color:#3C91E6;
+}
+.lsitStyle :active{
+    background: #3c91e6 !important;
+}
+.dashboardStyle{
+    background-color: aliceblue;
+
+}
+.tableShow{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
