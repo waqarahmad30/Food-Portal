@@ -14,7 +14,7 @@ const EmployeeList = ({
   onSendOtpToAll: (shift: string) => void;
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [shiftFilter, setShiftFilter] = useState<"day" | "night" | "casual" |null>(null);
+  const [shiftFilter, setShiftFilter] = useState<"day" | "night" | "casual" |null>("day");
   // Filter employees based on search term (name or ID)
   let filteredEmployees = employees.filter(
     (employee) =>

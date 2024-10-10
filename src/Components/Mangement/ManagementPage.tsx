@@ -112,7 +112,7 @@ const ManagementPage = () => {
     <>
       <section>
         <div className="row" style={{ maxWidth: '100%' }}>
-          <div className="col-md-3 bg-SkyBlue p-4" style={{ height: '100vh', position: 'sticky', top: '0' }}>
+          <div className="col-md-3 col-12 bg-SkyBlue p-4 sidebar">
             <div className="col">
               <img src="/QRG-pvt-ltd.png" alt="logo" className="img-fluid p-4" style={{ maxWidth: "100%" }} />
             </div>
@@ -141,7 +141,7 @@ const ManagementPage = () => {
             </div>
           </div>
 
-          <div className="col-md-9">
+          <div className="col-md-9 col-12">
             {/* Show the current view based on state */}
             {currentView === "dashboard" && <Dashboard employees={employees}/>}
             {currentView === "day" && (
